@@ -18,12 +18,12 @@ Before you begin, ensure you have met the following requirements:
 **Setup MongoDB with Docker Compose:**
 
 1.	Clone the repository:
-git clone <repository-url>
-cd <repository-directory>
+`git clone <repository-url>
+cd <repository-directory>`
 
 2.	Navigate to the directory containing the docker-compose.yml file and run Docker Compose:
    
-docker-compose up -d
+`docker-compose up -d`
 
 This will set up a MongoDB instance.
 
@@ -32,7 +32,7 @@ This will set up a MongoDB instance.
 1. Install the required Python packages
 2. Run the script to retrieve data from the external API and store it in MongoDB
 
-   python load_data.py
+   `python load_data.py`
 
    This script will fetch data from https://jsonplaceholder.typicode.com/ and store it in the MongoDB database.
 
@@ -40,7 +40,7 @@ This will set up a MongoDB instance.
 
 1. Start the FastAPI application:
 
-    uvicorn main:app --reload
+	`uvicorn main:app --reload`
 
    This will start the FastAPI server on http://127.0.0.1:8000.
 
